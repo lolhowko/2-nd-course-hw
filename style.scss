@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header {
+    background-image: url(img/topback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 217px;
+    padding-bottom: 494px;
+
+    &__tittle {
+        color: #FFF;
+        font-size: 64px;
+        font-family: Montserrat;
+        font-weight: 700;
+        padding-bottom: 32px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 32px;
+        padding-bottom: 58px;
+    }
+
+    &__button {
+        width: 234px;
+        height: 48px;
+        border-radius: 30px;
+        background: #9C0332;
+        color: #FFF;
+        font-size: 18px;
+        font-family: Montserrat;
+        padding: 13px 74px;
+    }
+}
+
+.options {
+    display: flex;
+    gap: 32px;
+    background: #000915;
+    padding: 120px 128px;
+}
+
+.option {
+
+    &_1 {
+        background-image: url(img/option1.jpg);
+        width: 379px;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    &_2 {
+        background-image: url(img/option2.jpg);
+        width: 379px;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    &_3 {
+        background-image: url(img/option3.jpg);
+        width: 379px;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    &__text {
+        width: 79px;
+        color: #FFF;
+        font-size: 24px;
+        font-family: Montserrat;
+        font-weight: 600;
+        padding-top: 236px;
+        padding-bottom: 32px;
+        padding-left: 32px;
+        padding-right: 268px;
+    }
+}
