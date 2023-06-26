@@ -3,7 +3,7 @@
 let userName = prompt("Введите Ваше имя, пожалуйста.");
 alert(`Привет, ${userName} !`);
 
-
+/*
 //ЗАДАНИЕ9.0
 
 let user = {
@@ -101,4 +101,4 @@ a = 10;
 alert(a);
 
 a = 20;
-alert(a = 20);
+alert(a = 20); */
