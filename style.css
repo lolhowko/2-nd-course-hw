@@ -22,6 +22,7 @@
   font-family: Montserrat;
   font-weight: 700;
   padding-bottom: 32px;
+  width: 788px;
 }
 .header__text {
   color: #FFF;
@@ -30,6 +31,12 @@
   font-weight: 300;
   line-height: 32px;
   padding-bottom: 58px;
+  width: 481px;
+}
+.header__span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
 }
 .header__button {
   width: 234px;
@@ -39,42 +46,38 @@
   color: #FFF;
   font-size: 18px;
   font-family: Montserrat;
-  padding: 13px 74px;
+  text-align: center;
 }
 
 .options {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   background: #000915;
   padding: 120px 128px;
 }
 
-.option_1 {
-  background-image: url(img/option1.jpg);
+.option {
   width: 379px;
   height: 300px;
   border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.option_1 {
+  background-image: url(img/option1.jpg);
 }
 .option_2 {
   background-image: url(img/option2.jpg);
-  width: 379px;
-  height: 300px;
-  border-radius: 16px;
 }
 .option_3 {
   background-image: url(img/option3.jpg);
-  width: 379px;
-  height: 300px;
-  border-radius: 16px;
 }
 .option__text {
-  width: 79px;
   color: #FFF;
   font-size: 24px;
   font-family: Montserrat;
   font-weight: 600;
-  padding-top: 236px;
-  padding-bottom: 32px;
-  padding-left: 32px;
-  padding-right: 268px;
 }/*# sourceMappingURL=style.css.map */

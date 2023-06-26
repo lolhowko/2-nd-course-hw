@@ -22,6 +22,7 @@
         font-family: Montserrat;
         font-weight: 700;
         padding-bottom: 32px;
+        width: 788px;
     }
 
     &__text {
@@ -31,6 +32,13 @@
         font-weight: 300;
         line-height: 32px;
         padding-bottom: 58px;
+        width: 481px;
+    }
+
+    &__span{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
     }
 
     &__button {
@@ -41,49 +49,44 @@
         color: #FFF;
         font-size: 18px;
         font-family: Montserrat;
-        padding: 13px 74px;
+        text-align: center;
     }
 }
 
 .options {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
     background: #000915;
     padding: 120px 128px;
 }
 
+
 .option {
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
 
     &_1 {
         background-image: url(img/option1.jpg);
-        width: 379px;
-        height: 300px;
-        border-radius: 16px;
     }
 
     &_2 {
         background-image: url(img/option2.jpg);
-        width: 379px;
-        height: 300px;
-        border-radius: 16px;
     }
 
     &_3 {
         background-image: url(img/option3.jpg);
-        width: 379px;
-        height: 300px;
-        border-radius: 16px;
     }
 
     &__text {
-        width: 79px;
         color: #FFF;
         font-size: 24px;
         font-family: Montserrat;
         font-weight: 600;
-        padding-top: 236px;
-        padding-bottom: 32px;
-        padding-left: 32px;
-        padding-right: 268px;
     }
 }
