@@ -1,4 +1,4 @@
-
+/*
 //ЗАДАНИЕ 5
 let monthNumber = Number(prompt('Введите номер месяца'));
 
@@ -44,7 +44,7 @@ switch (monthNumber) {
         break;
 }
 
-/*
+
 //ЗАДАНИЕ 4
 
 let a = '2';
