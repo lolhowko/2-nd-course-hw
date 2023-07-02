@@ -1,4 +1,51 @@
+//ЗАДАНИЕ 9
+let clientDeviceYear = prompt('Введите год выпуска вашего смартфона.');
+
+if (clientDeviceYear >= 2015) {
+    if (clientOS = 0) {
+        alert('Установите версию для IOS по ссылке.')
+    } else {
+        'Установите версию для Android по ссылке.'
+    }
+} else {
+    if (clientOS = 0) {
+        alert('Установите облегченную версию приложения для iOS по ссылке')
+    } else {
+        alert('Установите облегченную версию приложения для Android по ссылке')
+    }
+}
+
+
+
 /*
+//ЗАДАНИЕ 8
+
+let clientOS = 0 || 1;  //0 - ios, 1 - Android
+
+if (clientOS = 1) {
+    console.log("Установите версию приложения для iOS по ссылке");
+} else {
+    console.log("Установите версию приложения для Android по ссылке");
+}
+
+
+//ЗАДАНИЕ 7
+
+let addNumber = Number(prompt('Пожалуйста, введите любое число'));
+
+
+if (!isNaN(addNumber)) {
+    if (addNumber % 2 === 0){
+    alert("Число четное.");
+    } else {
+    alert("Число нечетное")
+    }
+}  else {
+    console.log("NaN");
+}
+
+
+
 //ЗАДАНИЕ 5
 let monthNumber = Number(prompt('Введите номер месяца'));
 
