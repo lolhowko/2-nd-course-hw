@@ -1,3 +1,4 @@
+/*
 //ЗАДАНИЕ 9
 let clientDeviceYear = prompt('Введите год выпуска вашего смартфона.');
 
@@ -16,8 +17,6 @@ if (clientDeviceYear >= 2015) {
 }
 
 
-
-/*
 //ЗАДАНИЕ 8
 
 let clientOS = 0 || 1;  //0 - ios, 1 - Android
