@@ -48,6 +48,9 @@
   font-family: Montserrat;
   text-align: center;
 }
+.header__button:hover {
+  background: black;
+}
 
 .options {
   display: flex;
@@ -66,6 +69,10 @@
   padding: 20px;
   box-sizing: border-box;
 }
+.option:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+}
 .option_1 {
   background-image: url(img/option1.jpg);
 }
@@ -80,4 +87,37 @@
   font-size: 24px;
   font-family: Montserrat;
   font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 238px;
+    padding-bottom: 319px;
+  }
+  .header__tittle {
+    text-align: center;
+    font-size: 32px;
+    width: 343px;
+  }
+  .header__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .header__span {
+    font-size: 14px;
+  }
+  .options {
+    justify-content: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
 }/*# sourceMappingURL=style.css.map */

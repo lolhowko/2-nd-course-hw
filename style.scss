@@ -35,7 +35,7 @@
         width: 481px;
     }
 
-    &__span{
+    &__span {
         font-weight: 700;
         font-size: 18px;
         line-height: 32px;
@@ -50,6 +50,10 @@
         font-size: 18px;
         font-family: Montserrat;
         text-align: center;
+
+        &:hover{
+            background: black;
+        }
     }
 }
 
@@ -71,6 +75,11 @@
     padding: 20px;
     box-sizing: border-box;
 
+    &:hover {
+        border-radius: 16px;
+        border: 3px solid #44D2FF;
+    }
+
     &_1 {
         background-image: url(img/option1.jpg);
     }
@@ -90,3 +99,5 @@
         font-weight: 600;
     }
 }
+
+@import 'mobile';
