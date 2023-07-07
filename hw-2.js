@@ -10,7 +10,7 @@ let user = {
     name: 'Lana',
     age: 26,
     isAdmin: true,
-}
+};
 
 //ЗАДАНИЕ9.1
 
