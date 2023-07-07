@@ -19,22 +19,50 @@
             width: 343px;
         }
 
-        &__text{
+        &__text {
             font-size: 14px;
             line-height: 22px;
             width: 343px;
             text-align: center;
         }
 
-        &__span{
+        &__span {
             font-size: 14px;
         }
 
     }
 
-    .options{
-        justify-content:center;
+    .options {
+        justify-content: center;
         padding-top: 128px;
         padding-bottom: 128px;
+    }
+
+    .game {
+        justify-content: center;
+        gap: 64px;
+
+        &__content {
+            padding-top: 127px;
+            align-items: center;
+            padding-bottom: 64px;
+        }
+
+        &__tittle {
+            font-size: 32px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            width: 343px;
+        }
+
+        &__img{
+        width: 343px;
+        height: 236px;
+        padding-top: 0px;
+        padding-bottom: 85px;
+        }
     }
 }
