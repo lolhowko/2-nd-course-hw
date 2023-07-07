@@ -2,10 +2,6 @@
 
 
 for (let dayNumber = 1; dayNumber <= 31; dayNumber+=7) {
-      if (dayNumber % 5 == 0) {
-          console.log('НЕ пятница, отдыхайте.'); 
-          continue; 
-      }
       console.log(`Сегодня пятница, ${dayNumber} -е число. Необходимо подготовить отчет.`);
   }
 
