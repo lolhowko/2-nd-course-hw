@@ -1,15 +1,15 @@
 //Задание 8
 
 function findSeason() {
-    let monthNumber = prompt('Введите номер месяца');
+    let monthNumber = Number(prompt('Введите номер месяца'));
 
-    if (monthNumber = 12 && 1 && 2) {
+    if (monthNumber === 12 || 1 || 2) {
         alert('Зима');
-    } if (monthNumber = 3 && 4 && 5) {
+    } if (monthNumber === 3 || 4 || 5) {
         alert('Весна');
-    } if (monthNumber = 6 && 7 && 8) {
+    } if (monthNumber === 6 || 7 || 8) {
         alert('Лето');
-    } if (monthNumber = 9 && 10 && 11) {
+    } if (monthNumber === 9 || 10 || 11) {
         alert('Осень');
     } else {
         alert('Вы ввели не правильное значение')
