@@ -1,24 +1,23 @@
+/*
 //Задание 8
 
 function findSeason() {
     let monthNumber = Number(prompt('Введите номер месяца'));
 
-    if (monthNumber === 12 || 1 || 2) {
+    if (monthNumber === 12 || monthNumber === 1 || monthNumber === 2) {
         alert('Зима');
-    } if (monthNumber === 3 || 4 || 5) {
+    } if (monthNumber === 3 || monthNumber === 4 || monthNumber === 5) {
         alert('Весна');
-    } if (monthNumber === 6 || 7 || 8) {
+    } if (monthNumber === 6 || monthNumber === 7 || monthNumber === 8) {
         alert('Лето');
-    } if (monthNumber === 9 || 10 || 11) {
+    } if (monthNumber === 9 || monthNumber === 10 || monthNumber === 11) {
         alert('Осень');
     } else {
         alert('Вы ввели не правильное значение')
     }
 }
 
-findSeason();
 
-/*
 //Задание 7
 
 function getArea() {
@@ -78,30 +77,26 @@ function examNumbers(a, b) {
 }
 
 examNumbers(1, 3);
-
+*/
 
 //Задание 4
 
 let userAge = prompt('Сколько вам лет?');
 
-if (userAge < 0) {
-    function showMessage() {
-        console.log('Вы ввели неправильное значение');
-        // НЕ ПОНИМАЮ КАК СДЕЛАТЬ ВЫВОД ПРИ ОТРИЦАТЕЛЬНЫХ ЗНАЧЕНИЯХ СООБЩЕНИЯ 'Вы ввели неправильное значение'
-    }
-} if (userAge >= 0 && userAge <= 12) {
-    function showMessage() {
-        console.log('Привет, друг!');
-    }
-} else {
-    function showMessage() {
-        console.log('Добро пожаловать!');
+function showMessage() {
+    if (userAge < 0) {
+            console.log('Вы ввели неправильное значение');
+    } if (userAge >= 0 && userAge <= 12) {
+            console.log('Привет, друг!');
+    } else {
+            console.log('Добро пожаловать!');
     }
 }
 
+
 showMessage();
 
-
+/*
 //Задание 3
 // 3.1
 let square = n => n * n;

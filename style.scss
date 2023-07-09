@@ -107,6 +107,7 @@
     gap: 135px;
 
     &__content {
+        font-family: Montserrat;
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -115,6 +116,7 @@
     }
 
     &__tittle {
+        font-family: Montserrat;
         padding-top: 51px;
         color: #FFF;
         font-size: 48px;
@@ -124,6 +126,7 @@
     }
 
     &__text {
+        font-family: Montserrat;
         width: 584px;
         color: #FFF;
         font-size: 18px;
@@ -133,6 +136,7 @@
     }
 
     &__button {
+        font-family: Montserrat;
         width: 234px;
         height: 48px;
         border-radius: 30px;
