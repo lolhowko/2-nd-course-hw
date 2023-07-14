@@ -13,3 +13,29 @@ function findSeason() {
         alert('Вы ввели не правильное значение')
     }
 }
+
+
+function findWords() {
+    let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    list = list.sort(() => Math.random() - 0.5);
+    alert(list);
+
+
+    let userAnswer1 = prompt('Чему равнялся первый элемент массива?');
+    let userAnswer2 = prompt('Чему равнялся последний элемент массива?');
+
+
+    if (userAnswer1 === list[0]) {
+        if (userAnswer2 === list[6]) {
+            alert('Поздравляю, вы угадали оба слова!');
+        } else {
+            alert('Вы были близки к победе!');
+        }
+    } else {
+        if (userAnswer2 === list[6]) {
+            alert('Вы были близки к победе!');
+        } else {
+            alert('Вы не угадали.');
+        }
+    }
+}
