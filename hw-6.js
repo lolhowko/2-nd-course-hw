@@ -56,11 +56,9 @@ let multiNum = [
     [4, 5, 6],
 ]
 
-multiNum = multiNum.join();
+const arr = multiNum.flat();
+console.log(arr);
 
-let resultMulti = [multiNum];
-
-console.log(resultMulti);
 
 
 //Задание 8
@@ -112,13 +110,18 @@ console.log(oneNum);
 
 //Задание 4
 
-let bigNumbers = [
-    [1, 1, 1], 
-    [1, 1, 1], 
-    [1, 1, 1],
-]
+let nums = [];
 
-console.log(bigNumbers);
+for (let i = 0; i < 3; i++) {
+  nums[i] = [];
+  
+  for (let j = 0; j < 3; j++) {
+    nums[i].push(1);
+  }
+}
+
+console.log(nums);
+
 
 
 //Задание 3
