@@ -200,4 +200,15 @@
     padding-top: 0px;
     padding-bottom: 85px;
   }
+  .game_2 {
+    display: none;
+  }
+  .game_2__content {
+    padding-top: 51px;
+  }
+  .game_2-mob {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+  }
 }/*# sourceMappingURL=style.css.map */
