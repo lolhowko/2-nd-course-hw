@@ -23,42 +23,40 @@ const people = [
  
 //Задание 2
 
-
-
 function isPositive(number) {
-    let result = [];
-  
-      for (let i = 0; i < number.length; i++) {
-  if (number[i] > 0) {
-      result.push(number[i]);
-  }
-      }
-      return result;
-  }
-  
-  //console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
-  
-  //function isMale(gender) {
-  //}
-  
-  function filter(arr, ruleFunction) {
+  return number > 0;
+}
+
+
+function isMale (gender) {
+if (gender === 'male') {
+return gender
+}
+};
+// не понимаю как сделать...
+
+
+function filter(arr, ruleFunction) {
   const output = [];
-  
   for (let i = 0; i < arr.length; i++) {
-    output.push(ruleFunction(arr[i]));
+      if (ruleFunction(arr[i])) {
+          output.push(arr[i]);
+      }
   }
   return output;
-  }
-  
-  console.log(filter([3, -4, 1, 9], isPositive)); // Должен выводить [3, 1, 9]
-  
-  //const people = [
-  //   {name: 'Глеб', gender: 'male'},
-  //   {name: 'Анна', gender: 'female'},
-  //   {name: 'Олег', gender: 'male'},
-  //   {name: 'Оксана', gender: 'female'}
-  //];
-  
+}
+console.log(filter([3, -4, 1, 9], isPositive)); // Должен выводить [3, 1, 9]
+
+const people = [
+ {name: 'Глеб', gender: 'male'},
+ {name: 'Анна', gender: 'female'},
+ {name: 'Олег', gender: 'male'},
+ {name: 'Оксана', gender: 'female'}
+];
+
+console.log(filter(people, isMale)); 
+// Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
+
 
 
 /*
