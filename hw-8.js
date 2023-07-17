@@ -19,7 +19,7 @@ const people = [
  });
  
  console.log(people);
- */
+ 
  
 //Задание 2
 
@@ -27,13 +27,9 @@ function isPositive(number) {
   return number > 0;
 }
 
-
-function isMale (gender) {
-if (gender === 'male') {
-return gender
+function isMale(person) {
+  return person.gender === 'male';
 }
-};
-// не понимаю как сделать...
 
 
 function filter(arr, ruleFunction) {
@@ -59,11 +55,11 @@ console.log(filter(people, isMale));
 
 
 
-/*
+
 //Задание 3
 
 let timerId = setTimeout(function showDate() {
-    let myDate = new Date("15 July 2023");
+    let myDate = new Date();
     console.log(myDate);
     
     timerId = setTimeout(showDate, 3000);
@@ -71,6 +67,7 @@ let timerId = setTimeout(function showDate() {
   
   setTimeout(() => {clearInterval(timerId); console.log('30 секунд прошло');}, 1000*30);
   
+
   
   //Задание 4
   
