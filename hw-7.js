@@ -74,7 +74,7 @@ console.log(getRandomArbitrary(1, 10));
 function getRandomArrNumbers(num) {
     let array = [];
     let halfArray = Math.floor(num / 2);
-    for (let i = 0; i < halfArray.length; i++) {
+    for (let i = 0; i < halfArray; i++) {
         array.push(Math.ceil(Math.random(num) * num));
     }
     return array;
